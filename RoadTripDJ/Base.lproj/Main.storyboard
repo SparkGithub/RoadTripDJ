@@ -41,7 +41,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Road  Trip DJ" id="ygq-TU-R48">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="lCb-dt-d1J"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="lCb-dt-d1J">
+                            <connections>
+                                <action selector="addMusic:" destination="vXZ-lx-hvc" id="qWD-3W-Vwd"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
